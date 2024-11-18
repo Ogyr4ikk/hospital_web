@@ -11,7 +11,11 @@ class Patient(models.Model):
     updated_at = models.DateTimeField(verbose_name="Дата изменения", auto_now=True)
     is_healing = models.BooleanField(verbose_name="Лечится", default=True)
     photo = models.ImageField(verbose_name="Фото", upload_to="photos/%Y/%m/%d")
+    district = models.ForeignKey('District', on_delete=models.CASCADE, verbose_name='Район')
 
     def __str__(self):
         return self.last_name
-
+class District(models.Model):
+    name = models.CharField(verbose_name="Название района", max_length=50)
+    def __str__(self):
+        return self.name
