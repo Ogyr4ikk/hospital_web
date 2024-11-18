@@ -4,10 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de693cde-c3db-44f3-b992-eee8a8870db3" name="Changes" comment="Работающие ссылки">
+    <list default="true" id="de693cde-c3db-44f3-b992-eee8a8870db3" name="Changes" comment="Связанные модели">
+      <change afterPath="$PROJECT_DIR$/hospital/patients/templates/patients/patient.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hospital/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/hospital/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hospital/patients/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/hospital/patients/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hospital/patients/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/hospital/patients/apps.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hospital/patients/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/hospital/patients/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hospital/patients/templates/patients/patients_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/hospital/patients/templates/patients/patients_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hospital/patients/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/hospital/patients/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hospital/patients/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/hospital/patients/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +47,9 @@
   &quot;associatedIndex&quot;: 2
 }</component>
   <component name="ProjectId" id="2oicA9qgsQkjY43VHqGlMaSSNwb" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -93,7 +101,7 @@
       <workItem from="1731393841268" duration="4740000" />
       <workItem from="1731618393363" duration="321000" />
       <workItem from="1731879977845" duration="4049000" />
-      <workItem from="1731957444427" duration="6660000" />
+      <workItem from="1731957444427" duration="11504000" />
     </task>
     <task id="LOCAL-00001" summary="Работающие ссылки">
       <option name="closed" value="true" />
@@ -103,7 +111,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731961717843</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Связанные модели">
+      <option name="closed" value="true" />
+      <created>1731964421554</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1731964421554</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,7 +138,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Работающие ссылки" />
-    <option name="LAST_COMMIT_MESSAGE" value="Работающие ссылки" />
+    <MESSAGE value="Связанные модели" />
+    <option name="LAST_COMMIT_MESSAGE" value="Связанные модели" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Kyrsach$urls.coverage" NAME="urls Coverage Results" MODIFIED="1731367370239" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hospital/hospital" />

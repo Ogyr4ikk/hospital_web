@@ -8,4 +8,5 @@ urlpatterns = [
  path('patients_list/', patients_list, name='patients_list'),
  path('doctors_list/', doctors_list, name ='doctors_list'),
  path('login/', login, name='login'),
+ path('patient/<slug:p_slug>/', show_patient, name='show_patient'),
 ]

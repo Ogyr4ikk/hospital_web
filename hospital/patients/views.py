@@ -1,5 +1,5 @@
 from django.http import HttpResponse
-from django.shortcuts import render
+from django.shortcuts import render, get_object_or_404
 from .models import Patient
 menu = [{"title": "Доктора", "url_name": "doctors_list"},
     {"title": "Пациенты", "url_name": "patients_list"},
@@ -15,3 +15,8 @@ def doctors_list(request):
 
 def login(request):
     return render(request, 'patients/login.html', {'title': 'Логин'})
+
+def show_patient(request, p_slug):
+    patient = get_object_or_404(Patient, slug=p_slug)
+    context = {'p': patient, 'menu': menu}
+    return render(request, 'patients/patient.html', context = context)
