@@ -1,9 +1,12 @@
 from django.http import HttpResponse
 from django.shortcuts import render, get_object_or_404
+
+from .forms import AddDoctorForm
 from .models import Patient, Doctor
 
 menu = [{"title": "Специалисты", "url_name": "doctors_list"},
     {"title": "Вход", "url_name": "login"},]
+
 
 def main_page(request):
     return render(request, 'patients/main_page.html', {'menu': menu, 'title': 'Главная страница'})
@@ -19,4 +22,9 @@ def show_doctor(request, d_slug):
 
 def login(request):
     return render(request, 'patients/login.html', {'title': 'Логин'})
+
+def add_doctor(request):
+    form = AddDoctorForm()
+    return render(request, 'patients/add_doctor.html', {'form': form})
+
 

@@ -11,5 +11,6 @@
             <p><img src="{{ d.photo.url }}" alt="Doctor photo"></p>
             {% endif %}
         {% endfor %}
+        <a href="{% url 'add_doctor' %}">Добавить специалиста</a>
     </ul>
 {% endblock %}
