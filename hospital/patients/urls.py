@@ -5,8 +5,7 @@ from hospital import settings
 from .views import *
 urlpatterns = [
  path('', main_page, name='main_page'),
- path('patients_list/', patients_list, name='patients_list'),
  path('doctors_list/', doctors_list, name ='doctors_list'),
  path('login/', login, name='login'),
- path('patient/<slug:p_slug>/', show_patient, name='show_patient'),
+ path('doctor/<slug:d_slug>/', show_doctor, name='show_doctor'),
 ]

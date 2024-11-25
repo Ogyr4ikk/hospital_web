@@ -4,14 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de693cde-c3db-44f3-b992-eee8a8870db3" name="Changes" comment="Связанные модели">
-      <change afterPath="$PROJECT_DIR$/hospital/patients/templates/patients/patient.html" afterDir="false" />
+    <list default="true" id="de693cde-c3db-44f3-b992-eee8a8870db3" name="Changes" comment="Слаги">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital/patients/templates/patients/doctor.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hospital/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/hospital/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hospital/patients/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/hospital/patients/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hospital/patients/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/hospital/patients/apps.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hospital/patients/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/hospital/patients/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hospital/patients/templates/patients/patients_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/hospital/patients/templates/patients/patients_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hospital/patients/templates/patients/doctors_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/hospital/patients/templates/patients/doctors_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hospital/patients/templates/patients/patient.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hospital/patients/templates/patients/patients_list.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/hospital/patients/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/hospital/patients/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hospital/patients/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/hospital/patients/views.py" afterDir="false" />
     </list>
@@ -31,18 +33,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Ogyr4ikk"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Ogyr4ikk&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Ogyr4ikk/hospital_web",
-    "accountId": "031278c0-4487-4c2c-9202-142088e8c1fa"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Ogyr4ikk/hospital_web&quot;,
+    &quot;accountId&quot;: &quot;031278c0-4487-4c2c-9202-142088e8c1fa&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -64,13 +66,14 @@
     "Python.urls.executor": "Run",
     "Python.views.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "vcs.Git",
+    "settings.editor.selected.configurable": "preferences.sourceCode.HTML",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -101,7 +104,9 @@
       <workItem from="1731393841268" duration="4740000" />
       <workItem from="1731618393363" duration="321000" />
       <workItem from="1731879977845" duration="4049000" />
-      <workItem from="1731957444427" duration="11504000" />
+      <workItem from="1731957444427" duration="11658000" />
+      <workItem from="1731999380039" duration="4214000" />
+      <workItem from="1732571152700" duration="4565000" />
     </task>
     <task id="LOCAL-00001" summary="Работающие ссылки">
       <option name="closed" value="true" />
@@ -119,7 +124,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731964421554</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Связанные модели">
+      <option name="closed" value="true" />
+      <created>1731969222655</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1731969222655</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

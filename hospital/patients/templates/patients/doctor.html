@@ -1,0 +1,11 @@
+{% extends 'patients/base.html' %}
+{% block content %}
+<<h1>{{ d.first_name }} {{ d.middle_name }} {{ d.last_name }}</h1>
+{% if d.photo %}
+ <p><img src="{{ d.photo.url }}" alt="Doctor photo"></p>
+{% endif %}
+<p>Номер телефона: {{ d.telephone_number }}</p>
+<p>Специальность: {{ d.speciality }}</p>
+<p>Дата рождения: {{ d.birth_date }}</p>
+<p>email: {{ d.email }}</p>
+{% endblock %}
